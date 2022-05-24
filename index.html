@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila&family=Mali:wght@300&display=swap" rel="stylesheet">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <input type="search" name="search" id="search" placeholder="Search...">
+        <button onclick="Logout(this)">Login</button>
+    </div>
+    <div class="main">
+        <div class="definition">
+            <h1 class="ninja">ninja</h1>
+            <div class="med">
+                <div class="small">
+                    <h3>noun</h3>
+                    <p>Plural: ninjas</p>
+                </div>
+            <h2>A practitioner skilled in the Japanese art of ninjutsu</h2>
+        </div>
+        <button class="like" onclick="alert('ninja was liked')">2 likes</button>
+        </div>
+        <div class="addbox">
+            <h2>Dojonary is defined by YOU</h2>
+            <button class="add" onclick="hide(this)">Add Definition</button>
+        </div>
+        <div class="definition">
+            <h1 class="ninja">ninja</h1>
+            <div class="med">
+                <div class="small">
+                    <h3>noun</h3>
+                    <p>Plural: ninjas</p>
+                </div>
+                    <h2>A programmer who breaks down problems with zen-like focus</h2>
+            </div>
+            <button class="like"onclick="alert('ninja was liked')">8 likes</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
